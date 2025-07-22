@@ -37,10 +37,6 @@ module fsundials_memory_helper_cuda_mod
   type(SwigClassWrapper), public :: swigdata
  end type
 
- integer(C_INT), parameter, public :: SUNMEMTYPE_HOST = 0
- integer(C_INT), parameter, public :: SUNMEMTYPE_PINNED = 1
- integer(C_INT), parameter, public :: SUNMEMTYPE_DEVICE = 2
- integer(C_INT), parameter, public :: SUNMEMTYPE_UVM = 3
  public :: FSUNMemoryHelper_Cuda
 
 ! WRAPPER DECLARATIONS
