@@ -106,7 +106,7 @@
   * -----------------------------------------------------------------
   */
  
- static inline N_Vector_ID N_VGetVectorID_Cuda(N_Vector /*v*/)
+ static inline N_Vector_ID N_VGetVectorID_Cuda(N_Vector v)
  {
    return SUNDIALS_NVEC_CUDA;
  }
